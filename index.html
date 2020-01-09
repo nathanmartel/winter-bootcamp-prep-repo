@@ -6,10 +6,16 @@
 </head>
 <header>
     <body>
-        <h1>Fluffy's Sweet Sweet Blog</h1>
+        <h1 id="blogName">The Latest from <span id="catName">Snookums</span></h1>
     </header>
     <main>
         <article>
+            <div class="catForm">
+                <label>
+                    Who is the new Snookums? 
+                    <input id="inputField"><button id="submitButton" type="submit">Submit</button>
+                </label>   
+                </div>
             <div class="img-container">
                 <img src="http://www.placekitten.com/800/400" />
             </div>
@@ -19,7 +25,7 @@
                     <li>Stop</li>
                     <li>Drop</li>
                     <li>And Roll</li>
-                </ul>   
+                </ul>
             </aside>      
             <h2>Snookums escapes via front door!</h2>
             <p class="lede">The lede: In a shocking twist, Snookums McGee fled the property in a dash through the front door. Neighboring cats cheered on as Snookums disappeared into the bushes.</p>
@@ -36,5 +42,6 @@
     <footer>
         Article by Jane Doe &bull; &copy; 2019 Huzzah Inc.
     </footer>
+    <script type="module" src="script.js"></script>
 </body>
 </html>

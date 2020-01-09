@@ -26,6 +26,10 @@ header img {
     width: 100%;
 }
 
+.catForm {
+    margin-bottom: 30px;
+}
+
 article {
     padding: 5em;
 }

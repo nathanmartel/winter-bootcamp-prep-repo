@@ -48,10 +48,38 @@ article aside {
     width: 33%;
 }
 
-article .lede {
+.lede {
     color: darkgreen;
     font-weight: bold;
 }
+
+.square {
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+.square:hover {
+    height: 120px;
+    width: 120px;
+}
+
+#blueSquare {
+    background-color: blue;
+}
+
+#redSquare {
+    background-color: red;
+}
+
+#yellowSquare {
+    background-color: yellow;
+}
+
 
 footer {
     background-color: #eee;
